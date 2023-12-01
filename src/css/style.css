@@ -161,12 +161,15 @@ main {
 
 .home-contact {
     display: grid;
-    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-columns: 1fr 1fr;
     padding-left: 10px;
 }
 
+
 .contacts-at-home {
     width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
 }
 
