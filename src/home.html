@@ -38,41 +38,57 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main class="section">
       <!--greetings with photo -->
-      <div>
-        <div><img src="./photo/mypicture.webp" alt="" /></div>
-        <div><p>Lorem ipsum dolor sit amet.</p></div>
+      <div class="hero is-info is-fullheight" style="background-image: url(./photo/mypicture.webp);">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title is-2">hi there,<br> 
+              this samuel endale </h1>
+            
+          </div>
+        </div>
       </div>
       <!--introduction to me with video-->
-      <div>
-        <div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            debitis laudantium porro cum ad assumenda doloribus quasi
-            perferendis saepe similique.
-          </p>
+      <div class="columns mt-3">
+        <div class="column is-half">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              debitis laudantium porro cum ad assumenda doloribus quasi
+              perferendis saepe similique.
+            </p>
+          
         </div>
-        <aside><video src="./video/myvideo.mp4" autoplay></video></aside>
+        <aside class="column is-half">
+          <video src="./video/myvideo.mp4" controls class="has-ratio" autoplay></video>
+        </aside>
       </div>
       <!--contact info -->
-      <div>
-        <h3>Contact</h3>
-        <p>feel free to contact me on</p>
-        <aside>
-          <a href="https://www.linkedin.com" target="_blank"
-            ><img src="./logo/linkedin.png" alt="linkedin logo"
-          /></a>
-          <a href="https://www.instagram.com" target="_blank"
-            ><img src="./logo/instagram.png" alt="instagram logo"
-          /></a>
-          <a href="https://www.facebook.com" target="_blank"
-            ><img src="./logo/facebook.png" alt="facebook logo"
-          /></a>
-          <a href="https://www.github.com" target="_blank"
-            ><img src="./logo/github.png" alt="github logo"
-          /></a>
-        </aside>
+      <h3 class="title is-3">Contact</h3>
+      <!-- <div class="columns"> -->
+        <div class="columns is-mobile">
+          <div class="column">
+            <p class="ml-5">feel free to contact me on</p>
+          </div>
+          <aside class="column columns is-mobile">
+            <div class="column">
+              <a class="is-link m-2" href="https://www.linkedin.com" target="_blank"
+                ><img class="image" src="./logo/linkedin.png" alt="linkedin logo"
+              /></a>
+              <a class="is-link m-2" href="https://www.instagram.com" target="_blank"
+                ><img class="image" src="./logo/instagram.png" alt="instagram logo"
+              /></a>
+            </div>
+            <div class="column">
+              <a class="is-link m-2" href="https://www.facebook.com" target="_blank"
+                ><img class="image" src="./logo/facebook.png" alt="facebook logo"
+              /></a>
+              <a class="is-link m-2" href="https://www.github.com" target="_blank"
+                ><img class="image" src="./logo/github.png" alt="github logo"
+              /></a>
+            </div>
+          </aside>
+        </div>
       </div>
     </main>
     <footer>
