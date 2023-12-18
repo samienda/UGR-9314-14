@@ -3,3 +3,6 @@ body,
     background-color: #004643;
 
 }
+.greeting-with-photo {
+    background-image: url(../photo/mypicture.webp);
+}
