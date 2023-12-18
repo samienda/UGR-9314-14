@@ -1,5 +1,5 @@
 body,
-.footer__table tr {
+.footer__table tr, #navbarMenu {
     background-color: #004643;
 
 }
