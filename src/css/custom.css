@@ -1,3 +1,5 @@
 .greeting_with_photo{
     background-image: url(../photo/mypicture.webp);
+    height: 500px;
+    background-size: cover;
 }
